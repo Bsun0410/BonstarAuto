@@ -5,7 +5,10 @@ body {
     padding: 0;
     position: relative;
     min-height: 100vh;
-}
+    background-color: #fff; /* Ensure this is set to the desired background color */
+    color: #000; /* Ensure text color is set appropriately */
+    }
+    
 
 a {
     text-decoration: none;
