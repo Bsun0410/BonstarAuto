@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f4f4f4; /* Light background for contrast */
+    background-color: #f4f4f4; /* Light background */
 }
 
 a {
@@ -17,6 +17,11 @@ a {
     color: white;
     padding: 15px;
     text-align: center;
+}
+
+.navbar .logo {
+    height: 50px;
+    vertical-align: middle;
 }
 
 .navbar ul {
