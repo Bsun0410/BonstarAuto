@@ -67,3 +67,16 @@ body {
     text-align: center;
     padding: 10px 0;
 }
+.brand-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+    padding: 40px;
+    text-align: center;
+}
+
+.brand-grid img {
+    width: 100px;
+    height: 100px;
+}
+
