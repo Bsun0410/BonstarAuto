@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bonstar Auto - Trade in Your Car</title>
+    <link rel="stylesheet" href="site.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <img src="bonstarlogo.png" alt="Bonstar Auto Logo" class="logo">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preowned.html">Preowned Cars</a></li>
+            <li><a href="new.html">New Cars</a></li>
+            <li><a href="tradein.html">Trade in Your Car</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Trade-in Form -->
+    <div class="tradein-form">
+        <h2>Trade in Your Car</h2>
+        <form action="your-backend-endpoint" method="POST">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2024 Bonstar Auto. All rights reserved.</p>
+    </div>
+
+</body>
+</html>
