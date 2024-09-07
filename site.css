@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,6 +7,18 @@ body {
     min-height: 100vh;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Navbar */
 .navbar {
     position: fixed;
     top: 0;
@@ -16,13 +29,15 @@ body {
     z-index: 1000;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    height: 50px;
 }
 
 .navbar ul {
-    list-style: none;
     display: flex;
-    margin: 0;
-    padding: 0;
 }
 
 .navbar ul li {
@@ -32,8 +47,14 @@ body {
 .navbar ul li a {
     color: white;
     text-decoration: none;
+    font-size: 16px;
 }
 
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
 .hero {
     position: relative;
     height: 400px;
@@ -53,6 +74,7 @@ body {
     font-weight: bold;
 }
 
+/* Scrolling Gallery */
 .scrolling-gallery {
     padding: 40px;
     text-align: center;
@@ -69,20 +91,54 @@ body {
     margin-right: 10px;
 }
 
-.footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #333;
-    color: white;
+/* Vehicle Directory */
+.vehicle-directory {
+    padding: 80px 20px;
     text-align: center;
-    padding: 10px 0;
 }
+
+.vehicle-item {
+    display: inline-block;
+    width: 300px;
+    margin: 10px;
+}
+
+.vehicle-item img {
+    width: 100%;
+    height: auto;
+}
+
+.vehicle-item h3 {
+    margin: 10px 0;
+}
+
+/* Car Brand Section */
+.car-brands {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.brand-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.brand-grid a {
+    display: block;
+}
+
+.brand-grid img {
+    width: 100px;
+    height: auto;
+}
+
+/* Trade-in Form */
 .tradein-form {
-    padding: 80px 20px 40px; /* Adjusted padding for better positioning */
+    padding: 80px 20px 40px;
     max-width: 600px;
-    margin: 100px auto 0; /* Centered and adjusted margin for fixed header */
+    margin: 100px auto 0;
 }
 
 .tradein-form form {
@@ -114,10 +170,11 @@ body {
     background-color: #555;
 }
 
+/* Contact Info */
 .contact-info {
-    padding: 80px 20px 40px; /* Adjusted padding for better positioning */
+    padding: 80px 20px 40px;
     max-width: 800px;
-    margin: 100px auto 0; /* Centered and adjusted margin for fixed header */
+    margin: 100px auto 0;
 }
 
 .employee-headshots {
@@ -142,3 +199,14 @@ body {
     margin-top: 10px;
 }
 
+/* Footer */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
