@@ -80,3 +80,39 @@ body {
     height: 100px;
 }
 
+.tradein-form {
+    padding: 40px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.tradein-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.tradein-form label {
+    margin: 10px 0 5px;
+}
+
+.tradein-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.tradein-form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tradein-form button:hover {
+    background-color: #555;
+}
+
+
