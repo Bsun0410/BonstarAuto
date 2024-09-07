@@ -79,3 +79,66 @@ body {
     text-align: center;
     padding: 10px 0;
 }
+.tradein-form {
+    padding: 80px 20px 40px; /* Adjusted padding for better positioning */
+    max-width: 600px;
+    margin: 100px auto 0; /* Centered and adjusted margin for fixed header */
+}
+
+.tradein-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.tradein-form label {
+    margin: 10px 0 5px;
+}
+
+.tradein-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.tradein-form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tradein-form button:hover {
+    background-color: #555;
+}
+
+.contact-info {
+    padding: 80px 20px 40px; /* Adjusted padding for better positioning */
+    max-width: 800px;
+    margin: 100px auto 0; /* Centered and adjusted margin for fixed header */
+}
+
+.employee-headshots {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.headshot {
+    text-align: center;
+}
+
+.headshot img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.headshot p {
+    margin-top: 10px;
+}
+
